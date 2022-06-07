@@ -120,7 +120,8 @@ static const char boardIdsWithUSBBluetooth[][kBoardIdSize] = {
     "Mac-65CE76090165799A",
     "Mac-4B682C642B45593E",
     "Mac-77F17D7DA9285301",
-    "Mac-BE088AF8C5EB4FA2"
+    "Mac-BE088AF8C5EB4FA2",
+    "Mac-F22586C8"
 };
 
 static mach_vm_address_t orig_cs_validate {};
