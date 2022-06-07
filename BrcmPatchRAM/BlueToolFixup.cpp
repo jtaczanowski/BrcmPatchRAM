@@ -104,23 +104,9 @@ static const uint8_t kBadChipsetCheckPatched[] =
 static bool shouldPatchBoardId = false;
 static bool shouldPatchAddress = false;
 
-static const size_t kBoardIdSize = sizeof("Mac-F60DEB81FF30ACF6");
+static const size_t kBoardIdSize = sizeof("Mac-F22586C8");
 
 static const char boardIdsWithUSBBluetooth[][kBoardIdSize] = {
-    "Mac-F60DEB81FF30ACF6",
-    "Mac-9F18E312C5C2BF0B",
-    "Mac-937CB26E2E02BB01",
-    "Mac-E43C1C25D4880AD6",
-    "Mac-06F11FD93F0323C5",
-    "Mac-06F11F11946D27C5",
-    "Mac-A369DDC4E67F1C45",
-    "Mac-FFE5EF870D7BA81A",
-    "Mac-DB15BD556843C820",
-    "Mac-B809C3757DA9BB8D",
-    "Mac-65CE76090165799A",
-    "Mac-4B682C642B45593E",
-    "Mac-77F17D7DA9285301",
-    "Mac-BE088AF8C5EB4FA2",
     "Mac-F22586C8"
 };
 
